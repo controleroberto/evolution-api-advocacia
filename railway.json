@@ -1,10 +1,9 @@
 {
   "build": {
-    "builder": "DOCKERFILE"
+    "builder": "NIXPACKS"
   },
   "deploy": {
     "numReplicas": 1,
-    "startCommand": "node dist/main.js",
     "restartPolicyType": "ON_FAILURE"
   }
 }
