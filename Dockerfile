@@ -5,7 +5,7 @@ FROM node:18-alpine
 WORKDIR /app
 
 # Copia os arquivos de dependências
-COPY package*.json ./
+COPY railway.json ./
 
 # Instala as dependências
 RUN npm install
