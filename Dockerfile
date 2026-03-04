@@ -1,4 +1,4 @@
-FROM atendai/evolution-api:v0.4.13
+FROM atendai/evolution-api:v0.5
 
 # Porta padrão da v0.4.13
 EXPOSE 8080
